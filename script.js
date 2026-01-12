@@ -22,11 +22,11 @@ login.addEventListener("click", () => {
   const user = username.value;
   const password = pass.value;
 
-  console.log("Username:", user);
-  console.log("Password:", password);
-
   localStorage.setItem("username", user);
   localStorage.setItem("password", password);
+
+    window.location.href = "home.html";
 });
+
 
 
