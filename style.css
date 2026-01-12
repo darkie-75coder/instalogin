@@ -25,6 +25,16 @@ img {
     gap: 2rem;
     padding: 40px;
     border: 2px solid black;
+    border-radius: 16px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
 }
 
 input {
